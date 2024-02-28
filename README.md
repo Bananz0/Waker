@@ -39,3 +39,42 @@ WakeyMatey is licensed under the [MIT License](LICENSE).
 If you have any questions, feedback, or suggestions, please don't hesitate to contact us at support@wakeymatey.com.
 
 Happy waking!
+
+### Todo List
+
+#### App Development:
+- [ ] Set up Android development environment.
+- [ ] Create basic UI mockups for the main app screens.
+- [ ] Implement core functionality for calculating optimal wake-up times based on sleep cycles.
+- [ ] Integrate Health Connect API for accessing sleep data from supported health apps.
+- [ ] Test app functionality on various Android devices.
+
+#### Wear OS Development:
+- [ ] Set up Wear OS development environment.
+- [ ] Design UI for the Wear OS companion app.
+- [ ] Implement basic functionality for the Wear OS app, including displaying wake-up recommendations.
+- [ ] Test app compatibility on Wear OS devices.
+
+#### Voice Assistant Integration:
+- [ ] Research and implement integration with Bixby for voice commands related to wake-up recommendations.
+- [ ] Research and implement integration with Google Assistant for voice commands related to wake-up recommendations.
+
+#### Platform Expansion (Future):
+- [ ] Explore the possibility of extending the app to iOS and WatchOS platforms.
+- [ ] Research iOS development environment and requirements.
+- [ ] Investigate HealthKit API for accessing sleep data on iOS.
+- [ ] Plan and design UI for the iOS app.
+- [ ] Implement core functionality for iOS app.
+- [ ] Test app compatibility on iOS devices and WatchOS.
+
+#### Miscellaneous:
+- [ ] Set up GitHub repository for version control.
+- [ ] Document code and project setup in README.md.
+- [ ] Test app thoroughly for bugs and performance issues.
+- [ ] Gather feedback from beta testers and make necessary improvements.
+- [ ] Prepare for app release on Google Play Store and Wear OS app store.
+
+#### Stretch Goals:
+- [ ] Explore additional features such as smart alarms, sleep tracking, and analytics.
+- [ ] Consider integrating with other wearable platforms (e.g., Fitbit, Garmin).
+- [ ] Investigate additional voice assistant integrations (e.g., Alexa).
