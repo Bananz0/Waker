@@ -1,6 +1,6 @@
-# WakeyMatey
+# Waker
 
-WakeyMatey is your personal wake-up companion, designed to optimize your wake-up routine and ensure you start your day feeling refreshed and revitalized.
+Waker is your personal wake-up companion, designed to optimize your wake-up routine and ensure you start your day feeling refreshed and revitalized.
 
 ## Features
 
@@ -12,19 +12,19 @@ WakeyMatey is your personal wake-up companion, designed to optimize your wake-up
 
 ## Installation
 
-WakeyMatey can be installed on any Android device. Simply download the APK file from the releases section and install it on your device. For smartwatches, download the companion app from the Google Play Store or the respective app store for your device.
+Waker can be installed on any Android device. Simply download the APK file from the releases section and install it on your device. For smartwatches, download the companion app from the Google Play Store or the respective app store for your device.
 
 ## Usage
 
-1. Open WakeyMatey on your Android device or smartwatch.
-2. Connect WakeyMatey to your preferred health app (Google Fit, Samsung Health, Oppo Health, etc.).
+1. Open Waker on your Android device or smartwatch.
+2. Connect Waker to your preferred health app (Google Fit, Samsung Health, Oppo Health, etc.).
 3. Set your desired wake-up time or input your bedtime.
 4. Receive personalized wake-up recommendations based on your sleep data and approximate REM calculations.
 5. Wake up feeling refreshed and ready to conquer the day!
 
 ## Voice Assistant Integration
 
-WakeyMatey seamlessly integrates with popular voice assistants including Google Assistant, Alexa, and Bixby. Simply enable the WakeyMatey skill or action on your voice assistant device and start using voice commands to interact with WakeyMatey.
+Waker seamlessly integrates with popular voice assistants including Google Assistant, Alexa, and Bixby. Simply enable the Waker skill or action on your voice assistant device and start using voice commands to interact with Waker.
 
 ## Contributing
 
@@ -32,11 +32,11 @@ We welcome contributions from the community! If you have any ideas for new featu
 
 ## License
 
-WakeyMatey is licensed under the [MIT License](LICENSE).
+Waker is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-If you have any questions, feedback, or suggestions, please don't hesitate to contact us at support@wakeymatey.com.
+If you have any questions, feedback, or suggestions, please don't hesitate to contact us at support@Waker.com.
 
 Happy waking!
 
