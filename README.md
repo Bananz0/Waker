@@ -48,6 +48,7 @@ Happy waking!
 - [ ] Implement core functionality for calculating optimal wake-up times based on sleep cycles.
 - [ ] Integrate Health Connect API for accessing sleep data from supported health apps.
 - [ ] Test app functionality on various Android devices.
+- [ ] Edge Panels Samsung Integration
 
 #### Wear OS Development:
 - [ ] Set up Wear OS development environment.
