@@ -1,4 +1,4 @@
-package com.wakeymatey.app
+package com.wakeymatey.waker
 
 import org.junit.Test
 

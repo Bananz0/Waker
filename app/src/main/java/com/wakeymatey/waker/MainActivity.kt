@@ -1,4 +1,4 @@
-package com.wakeymatey.app
+package com.wakeymatey.waker
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.wakeymatey.app.ui.theme.WakeyMateyTheme
+import com.wakeymatey.waker.ui.theme.WakeyMateyTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

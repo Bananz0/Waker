@@ -1,4 +1,4 @@
-package com.wakeymatey.app.ui.theme
+package com.wakeymatey.waker.ui.theme
 
 import android.app.Activity
 import android.os.Build
