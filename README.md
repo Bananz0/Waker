@@ -1,81 +1,109 @@
-# Waker
+# Waker: Intelligent Native Multi-Platform Sleep Assistant
 
-Waker is your personal wake-up companion, designed to optimize your wake-up routine and ensure you start your day feeling refreshed and revitalized.
+## Project Overview
+Waker is a cutting-edge, native multi-platform sleep optimization application designed to intelligently determine the optimal moment to wake you up, minimizing grogginess and maximizing rest across Windows, Android, and iOS devices.
 
-## Features
+## Platform-Specific Native Technologies
 
-- **Sleep Cycle Optimization**: Utilize sleep data from Google Fit, Samsung Health, Oppo Health, or any other health app via the Health Connect module on Android to calculate the best time to wake up based on sleep cycles.
-- **Scientifically Grounded**: Leverage approximate REM calculations based on studies to determine the optimal wake-up time.
-- **Personalized Wake-Up Recommendations**: Receive personalized recommendations tailored to your sleep patterns and preferences.
-- **User-Friendly Interface**: Simple and intuitive interface for easy navigation and usage.
-- **Multi-Platform Support**: Compatible with Android smartphones, wearables (including smartwatches), and voice assistants such as Google Assistant, Alexa, and Bixby.
+### 🤖 Android
+- **Language**: Kotlin
+- **UI Framework**: Material 3 (Material You)
+- **Rendering**: Jetpack Compose
+- **Architecture**: MVVM with Kotlin Coroutines
 
-## Installation
+### 💻 Windows
+- **Language**: C# 
+- **UI Framework**: Windows App SDK (WinUI 3)
+- **Architecture**: Model-View-ViewModel (MVVM)
 
-Waker can be installed on any Android device. Simply download the APK file from the releases section and install it on your device. For smartwatches, download the companion app from the Google Play Store or the respective app store for your device.
+### 🍎 iOS/macOS
+- **Language**: Swift
+- **UI Framework**: SwiftUI
+- **Architecture**: MVVM with Combine framework
 
-## Usage
+## Core Features
+- Intelligent sleep cycle analysis
+- Cross-platform synchronization
+- Machine learning-powered wake-up recommendations
+- Native platform UI/UX experiences
+- Health data integration
 
-1. Open Waker on your Android device or smartwatch.
-2. Connect Waker to your preferred health app (Google Fit, Samsung Health, Oppo Health, etc.).
-3. Set your desired wake-up time or input your bedtime.
-4. Receive personalized wake-up recommendations based on your sleep data and approximate REM calculations.
-5. Wake up feeling refreshed and ready to conquer the day!
+## Technical Architecture
 
-## Voice Assistant Integration
+### Shared Components
+- Sleep cycle algorithms
+- Machine learning models
+- Core data models
+- Synchronization logic
 
-Waker seamlessly integrates with popular voice assistants including Google Assistant, Alexa, and Bixby. Simply enable the Waker skill or action on your voice assistant device and start using voice commands to interact with Waker.
+### Platform-Specific Implementations
+- Native UI/UX optimized for each platform
+- Platform-specific performance optimizations
+- Deep integration with native system capabilities
 
-## Contributing
+## Development Roadmap
 
-We welcome contributions from the community! If you have any ideas for new features, bug fixes, or improvements, please feel free to submit a pull request or open an issue on GitHub.
+### Phase 1: Platform Foundations (3-4 months)
+- [ ] Develop core sleep cycle algorithm
+- [ ] Implement native UI for each platform
+- [ ] Basic health data integration
+- [ ] Local alarm management
 
-## License
+### Phase 2: Advanced Features (4-6 months)
+- [ ] Machine learning wake-up prediction
+- [ ] Cross-platform synchronization
+- [ ] Advanced health platform integrations
+- [ ] Background service implementations
 
-Waker is licensed under the [MIT License](LICENSE).
+### Phase 3: Ecosystem Expansion (6-9 months)
+- [ ] Voice assistant integrations
+- [ ] Wearable device support
+- [ ] Advanced analytics and insights
+
+## Technology Stack
+
+### Cross-Platform Components
+- **Algorithm Development**: Kotlin Multiplatform
+- **Machine Learning**: TensorFlow Lite
+- **Cloud Sync**: Firebase / custom backend
+
+### Platform-Specific
+- **Android**: Jetpack libraries, Kotlin Coroutines
+- **Windows**: .NET, Windows Community Toolkit
+- **iOS**: Swift Concurrency, Combine framework
+
+## Licensing
+- Dual-licensed approach
+- Business Source License for initial period
+- Converts to open-source after specified duration
+
+## Contribution Guidelines
+1. Fork the repository
+2. Choose platform-specific branch
+3. Follow platform coding standards
+4. Provide comprehensive test coverage
+5. Document platform-specific considerations
+
+## Performance Goals
+- Minimal battery impact
+- Sub-100ms wake-up recommendation generation
+- Efficient background processing
+- Native system resource utilization
+
+## Privacy & Data Handling
+- Local-first data processing
+- Optional cloud synchronization
+- Encrypted data storage
+- Transparent user data controls
+
+## Target Platforms
+- Android 8.0+ 
+- Windows 10/11
+- iOS 15+
+- macOS 12+
 
 ## Contact
+- Project Lead: Glen Muthoka
+- Email: support@waker-app.com
 
-If you have any questions, feedback, or suggestions, please don't hesitate to contact us at support@Waker.com.
-
-Happy waking!
-
-### Todo List
-
-#### App Development:
-- [ ] Set up Android development environment.
-- [ ] Create basic UI mockups for the main app screens.
-- [ ] Implement core functionality for calculating optimal wake-up times based on sleep cycles.
-- [ ] Integrate Health Connect API for accessing sleep data from supported health apps.
-- [ ] Test app functionality on various Android devices.
-- [ ] Edge Panels Samsung Integration
-
-#### Wear OS Development:
-- [ ] Set up Wear OS development environment.
-- [ ] Design UI for the Wear OS companion app.
-- [ ] Implement basic functionality for the Wear OS app, including displaying wake-up recommendations.
-- [ ] Test app compatibility on Wear OS devices.
-
-#### Voice Assistant Integration:
-- [ ] Research and implement integration with Bixby for voice commands related to wake-up recommendations.
-- [ ] Research and implement integration with Google Assistant for voice commands related to wake-up recommendations.
-
-#### Platform Expansion (Future):
-- [ ] Explore the possibility of extending the app to iOS and WatchOS platforms.
-- [ ] Research iOS development environment and requirements.
-- [ ] Investigate HealthKit API for accessing sleep data on iOS.
-- [ ] Plan and design UI for the iOS app.
-- [ ] Implement core functionality for iOS app.
-- [ ] Test app compatibility on iOS devices and WatchOS.
-
-#### Miscellaneous:
-- [ ] Set up GitHub repository for version control.
-- [ ] Document code and project setup in README.md.
-- [ ] Test app thoroughly for bugs and performance issues.
-- [ ] Gather feedback from beta testers and make necessary improvements.
-- [ ] Prepare for app release on Google Play Store and Wear OS app store.
-
-#### Stretch Goals:
-- [ ] Explore additional features such as smart alarms, sleep tracking, and analytics.
-- [ ] Consider integrating with other wearable platforms (e.g., Fitbit, Garmin).
-- [ ] Investigate additional voice assistant integrations (e.g., Alexa).
+*Revolutionize your mornings with scientifically optimized wake-ups*
