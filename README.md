@@ -77,6 +77,14 @@ Waker is a cutting-edge, native multi-platform sleep optimization application de
 - Business Source License for initial period
 - Converts to open-source after specified duration
 
+## Privacy Commitment
+🔒 **Your Health Data Stays Yours**
+- 100% On-Device Processing
+- No Cloud Health Data Transfer
+- Local Machine Learning
+- End-to-End Encryption
+- Zero Telemetry Without Explicit Consent
+
 ## Contribution Guidelines
 1. Fork the repository
 2. Choose platform-specific branch
